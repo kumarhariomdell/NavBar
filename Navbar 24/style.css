@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&family=Roboto&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.top_nav {
+    height: 96px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    margin-right: 200px;
+}
+
+.nav_links {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_links a {
+    text-decoration: none;
+    color: black;
+    padding-right: 36px;
+}
+
+
+.btn {
+    border-radius: 4px;
+    background-color: #3A4F39;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero {
+    height: 900px;
+    width: 100%;
+    background-color: #3A4F39;
+}
